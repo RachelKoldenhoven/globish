@@ -1,46 +1,46 @@
 import { Component }       from '@angular/core';
-import { VolcanoService }     from './volcano.service';
-import { VolcanoesComponent } from './volcanoes.component';
-import { DashboardComponent } from './dashboard.component';
-import { VolcanoDetailComponent } from './volcano-detail.component';
 import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from '@angular/router-deprecated';
+import { HomeComponent } from './home.component';
+import { MatchingComponent } from './matching.component';
+import { InboxComponent } from './inbox.component';
+
+
 
 @Component({
-    selector: 'my-app',
+    selector: 'globish',
     template: `
     <h1>{{title}}</h1>
     <nav>
-        <a [routerLink]="['Dashboard']">Dashboard</a>
+        <a [routerLink]="['Home']">Dashboard</a>
         <a [routerLink]="['Volcanoes']">Volcanoes</a>
     </nav>
     <router-outlet></router-outlet>
   `,
     directives: [ROUTER_DIRECTIVES],
     providers: [
-        VolcanoService,
         ROUTER_PROVIDERS
     ]
 })
 
 @RouteConfig([
     {
-        path: '/volcanoes',
-        name: 'Volcanoes',
-        component: VolcanoesComponent
+        path: '/home',
+        name: 'Home',
+        component: HomeComponent
     },
     {
-        path: '/dashboard',
-        name: 'Dashboard',
-        component: DashboardComponent,
+        path: '/matching',
+        name: 'Matching',
+        component: MatchingComponent,
         useAsDefault: true
     },
     {
-        path: '/detail/:id',
-        name: 'VolcanoDetail',
-        component: VolcanoDetailComponent
+        path: '/inbox',
+        name: 'Inbox',
+        component: InboxComponent
     }
 ])
 
 export class AppComponent {
-    title = 'Tour of Volcanoes';
+    title = 'Globish';
 }
