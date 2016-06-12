@@ -35,7 +35,7 @@ h6 {
     text-align: center;
     color: #f8f8f8;
     background-image: url(../images/culture.jpg);
-    background-position: center;
+    background-position: center 70%;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -281,6 +281,7 @@ td:hover{
     background: #fff none repeat scroll 0 0;
     border: 1px solid #e1e8ed;
     border-radius: 6px;
+    padding-bottom: 100px;
 }
 .profile-bg {
     background-image: url("../images/ben_background.jpg");
@@ -293,18 +294,29 @@ td:hover{
 }
 .profile-block {
     display: block !important;
+    position: relative;
 }
 .profile-button {
-    margin: -35px -10px 0;
-    text-align: right;
+    width: 80px;
+    position: absolute;
+    bottom: -35px;
+    right: 10px;
+}
+
+.profile-info {
+    position: relative;
+}
+
+.profile-button img {
     width: 100%;
 }
+
 .profile-avatarLink {
     background-color: #fff;
     border-radius: 6px;
     display: inline-block !important;
     float: left;
-    margin: -30px 5px 0 8px;
+    margin: -70px 5px 0 8px;
     max-width: 100%;
     padding: 1px;
     vertical-align: bottom;
@@ -332,7 +344,7 @@ td:hover{
 .profile-divStats {
     margin-left: 11px;
     padding: 10px 0;
-    margin-top: 30px;
+    margin-top: 80px;
 }
 .profile-Arrange {
     box-sizing: border-box;
@@ -351,6 +363,8 @@ ul.profile-Arrange {
     display: table-cell;
     padding: 0;
     vertical-align: top;
+    width: 30%;
+    padding: 0 20px;
 }
 .profile-ArrangeSizeFit a:hover {
     text-decoration: none;
@@ -368,6 +382,7 @@ ul.profile-Arrange {
     overflow: hidden;
     text-transform: uppercase;
     transition: color 0.15s ease-in-out 0s;
+    margin-bottom: 10px;
 }
 
 .profile-StatValue li {
