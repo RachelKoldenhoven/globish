@@ -337,6 +337,19 @@ td:hover{
     max-width: 100%;
 }
 
+.card .card-action a {
+    color: rgba(217, 127, 69, 0.7);
+    font-weight: 700;
+    text-shadow: 0px 0px 0px #d97f45;
+}
+
+.card .card-action a:hover:not(.btn):not(.btn-large):not(.btn-floating) {
+    color: rgba(217, 127, 69, 0.7);
+    font-weight: 700;
+    text-shadow: 0px 0px 0px rgba(217, 127, 69, 0.7);
+}
+
+
 .chip {
     font-size: 28px;
     height: 46px;
