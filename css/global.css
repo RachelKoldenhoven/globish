@@ -277,6 +277,21 @@ nav + .container {
 .badge-button img {
   max-width: 100%; }
 
+.chip {
+  font-size: 28px;
+  height: 46px;
+  line-height: 46px;
+  padding: 0 25px;
+  border-radius: 23px;
+  color: #fff;
+  background-color: #d97f45; }
+
+.chip img {
+  margin: -10px 5px 0 -25px;
+  height: 64px;
+  width: 64px;
+  border: 3px solid #fff; }
+
 .badge-button {
   width: 100px;
   position: absolute;
