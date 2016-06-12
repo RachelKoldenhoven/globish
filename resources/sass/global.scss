@@ -320,6 +320,30 @@ td:hover{
     right: 10px;
 }
 
+.badge-profile-info .profile-avatarLink {
+    position: relative;
+}
+
+.badge-profile-info .profile-avatarImg {
+    height: 150px;
+    width: 150px;
+
+}
+.badge-panel {
+    position: relative;
+}
+
+.badge-button img {
+    max-width: 100%;
+}
+
+.badge-button {
+    width: 100px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+
 .matches-button {
     width: 200px;
     text-align: right;
