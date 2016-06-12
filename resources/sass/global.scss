@@ -18,6 +18,7 @@ h5,
 h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    margin-bottom: 0;
 }
 
 .topnav {
@@ -276,6 +277,22 @@ td:hover{
 	font-size: 26px;
 }
 
+.card .card-image .card-title {
+    width: 48%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-weight: 400;
+    background: #008994;    
+    padding: 10px 20px 15px 20px;
+
+}
+
+.card .card-action {
+    text-align: center;
+    padding: 20px 40px;
+}
+
 
 .profile-div {
     background: #fff none repeat scroll 0 0;
@@ -301,6 +318,15 @@ td:hover{
     position: absolute;
     bottom: -35px;
     right: 10px;
+}
+
+.matches-button {
+    width: 200px;
+    text-align: right;
+    position: absolute;
+    top: -25px;
+    right: -25px;
+
 }
 
 .profile-info {
@@ -392,4 +418,8 @@ ul.profile-Arrange {
 .logo-dot {
     color: #009668;
     margin: 0 -0.5em;
+}
+
+.card .card-image img {
+    display: inline-block;
 }
