@@ -1,0 +1,90 @@
+body {
+    background: white;
+}
+@font-face {
+    font-family: 'habibiregular';
+    src: url('../font/habibi-regular-webfont.eot');
+    src: url('../font/habibi-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../font/habibi-regular-webfont.woff2') format('woff2'), url('../font/habibi-regular-webfont.woff') format('woff'), url('../font/habibi-regular-webfont.ttf') format('truetype'), url('../font/habibi-regular-webfont.svg#habibiregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.image{
+    width: 200px !important;
+    height: 120px !important;
+    margin-left: 44% !important;
+}
+h4{
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+.row .col.m6 {
+    width: 20%;
+    margin-left: 40%;
+}
+.person{
+    margin-left: 100px;
+}
+.button{
+    margin-left: 35%;
+}
+.form{
+    width: 70% !important;
+    margin-left: 15% !important;
+}
+.form1{
+    width: 70% !important;
+    margin-left: 20% !important;
+}
+
+.Next{
+    margin-left: 30%;
+    margin-bottom: 30px;
+}
+.account{
+    margin-left: 47%;
+}
+.belowAccount{
+    margin-left: 42%;
+}
+.image2 {
+    width: 170px !important;
+    height: 60px !important;
+    margin-left: 45% !important;
+}
+
+.round-button {
+    width: 100px;
+    height: 100px;
+}
+.round-button-circle {
+    width: 100px;
+    height:100px;
+    padding-bottom: 100%;
+    border-radius: 50%;
+    border:10px solid #cfdcec;
+    overflow:hidden;
+    
+    background: #4679BD; 
+    box-shadow: 0 0 3px gray;
+}
+.round-button-circle:hover {
+    background:#30588e;
+}
+.round-button a {
+    display:block;
+    float:left;
+    width:100px;
+    padding-top:50%;
+    padding-bottom:50%;
+    line-height:1em;
+    margin-top:-0.5em;
+    
+    text-align:center;
+    color:#e2eaf3;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+}
