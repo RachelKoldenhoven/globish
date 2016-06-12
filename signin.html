@@ -1,116 +1,187 @@
 <!doctype html>
 <html class="no-js">
-
-<head>
-    <meta charset="utf-8">
-    <title>Login</title>
-
-    <meta name="application-name" content="Login Imitation">
-    <meta name="robots" content="index,follow">
-    <meta name="googlebot" content="index,follow">
-    <meta name="viewport" content="width=device-width">
-    <meta http-equiv="cache-control" content="no-cache" />
-    <meta http-equiv="expires" content="0" />
-    <meta http-equiv="pragma" content="no-cache" /> 
-    <!--Icon for All device-->
-    <link rel="apple-touch-icon" sizes="57x57" href="images/icon/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="images/icon/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/icon/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/icon/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/icon/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/icon/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/icon/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/icon/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/icon/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="images/icon/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="images/icon/android-chrome-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="images/icon/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="images/icon/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="images/icon/manifest.json">
-    <link rel="mask-icon" href="images/icon/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="images/icon/favicon.ico">
-    <meta name="apple-mobile-web-app-title" content="HelpingO">
-    <meta name="application-name" content="HelpingO">
-    <meta name="msapplication-TileColor" content="#2b5797">
-    <meta name="msapplication-TileImage" content="images/icon/mstile-144x144.png">
-    <meta name="msapplication-config" content="images/icon/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-
-
-    <!-- matrialize css -->
-    <link rel="stylesheet" href="styles/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
-    <link rel="stylesheet" href="styles/font-awesome.min.css">
-    <!-- custom styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- Materialise icon APIs -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <style>
-    body{
-       /* Other non-webkit browsers */
-       zoom: 90%; 
-   }
-</style>
-</head>
+    <head>
+        <meta charset="utf-8">
+        <title>Login</title>
 
-<body ng-app="Login">
+        <meta name="application-name" content="Login Imitation">
+        <meta name="robots" content="index,follow">
+        <meta name="googlebot" content="index,follow">
+        <meta name="viewport" content="width=device-width">
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="expires" content="0" />
+        <meta http-equiv="pragma" content="no-cache" /> 
+        <!--Icon for All device-->
+        <link rel="apple-touch-icon" sizes="57x57" href="images/icon/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="images/icon/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/icon/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="images/icon/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/icon/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="images/icon/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="images/icon/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="images/icon/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/icon/apple-touch-icon-180x180.png">
+        <link rel="icon" type="image/png" href="images/icon/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="images/icon/android-chrome-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="images/icon/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="images/icon/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="images/icon/manifest.json">
+        <link rel="mask-icon" href="images/icon/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="images/icon/favicon.ico">
+        <meta name="apple-mobile-web-app-title" content="HelpingO">
+        <meta name="application-name" content="HelpingO">
+        <meta name="msapplication-TileColor" content="#2b5797">
+        <meta name="msapplication-TileImage" content="images/icon/mstile-144x144.png">
+        <meta name="msapplication-config" content="images/icon/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+
+
+        <!-- matrialize css -->
+        <link rel="stylesheet" href="styles/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <link rel="stylesheet" href="styles/font-awesome.min.css">
+        <!-- custom styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- Materialise icon APIs -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Fugaz+One' rel='stylesheet' type='text/css'>
+
+        <!--Script to add social media account in google search-->
+        <script type="application/ld+json">
+            {
+              "@context" : "http://schema.org",
+              "@type" : "Organization",
+              "name" : "HelpingO",
+              "url" : "https://helpingo.com",
+              "sameAs" : [
+                "http://www.facebook.com/your-profile",
+                "http://www.twitter.com/yourProfile",
+                "http://plus.google.com/your_profile"
+              ]
+            }
+        </script>
+        <style>
+            body{
+                 /* Other non-webkit browsers */
+                zoom: 90%; 
+            }
+        </style>
+    </head>
     
-    <!-- application content here -->
-    <!-- ui-view is used to insert app on the fly -->
-    <div ui-view></div>
-    
-    
-    <h4 class="col s12">
-        Globish
-    </h4>
-    <h5>
-        Sign Up to Connect Internationally!
-    </h5>
-    <form>
+    <body ng-app="Login">
+        
+        <!-- application content here -->
+        <!-- ui-view is used to insert app on the fly -->
+        <div ui-view></div>
+        
+        <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation" style="background-color: #f8f8f8 !important; color: black !important;">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <img class="logo" src="images/logo.png">
+                <a class="navbar-brand topnav" style="color: black !important;" href="#">Globeish</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+        <h4 class="col s12">
+            Globeish
+        </h4>
+        <h5>
+            Sign Up to Connect Internationally!
+        </h5>
+        <form>
         <div class="row">
-            <div class="col s6 m6">
-              <div class="card grey lighten-2 greyCard">
-                <div class="card-content black-text">
-                    <i class="large material-icons person">perm_identity</i>
+        <div class="col s6 m6">
+          <div class="card grey lighten-2 greyCard">
+            <div class="card-content black-text">
+                <i class="large material-icons person">perm_identity</i>
+            </div>
+            <div class="row">
+                <div class="input-field col s6 form1">
+                    <a class="waves-effect waves-light btn"><i class="material-icons left">thumb_up</i>Facebook</a>
                 </div>
-                <div class="row">
-                    <div class="input-field col s6 form1">
-                        <a class="waves-effect waves-light btn"><i class="material-icons left">thumb_up</i>Facebook</a>
-                    </div>
-                </div>
+            </div>
 
-                <div class="row">
-                    <div class="input-field col s6 form1">
-                       <a class="waves-effect waves-light btn"><i class="material-icons left">perm_identity</i>Google &nbsp;&nbsp;&nbsp;</a>
-                   </div>
-               </div>            
-               
-               
-               <div class="row">
+            <div class="row">
+                <div class="input-field col s6 form1">
+                     <a class="waves-effect waves-light btn"><i class="material-icons left">perm_identity</i>Google &nbsp;&nbsp;&nbsp;</a>
+                </div>
+            </div>            
+                   
+                    
+            <div class="row">
                 <div class="input-field col s6 form">
                     <input placeholder="Country" id="country" type="text" class="validate">
                     
                 </div>
             </div>
             
-            
-            <div class="row">
-                <button class="btn waves-effect waves-light Next" type="submit" name="action">Submit
-                    <i class="material-icons right">send</i>
-                </button>
+        
+        <!--
+        <div class="row">
+            <div class="input-field col s6 form">
+                <input placeholder="General Interests" id="first_name2" type="text" class="validate">
+                <label class="active" for="first_name2">General Interests</label>
             </div>
         </div>
-    </div>
-</div>
-</form>
+        <div class="row">
+            <div class="input-field col s6 form">
+                <input placeholder="Specific Interests" id="first_name2" type="text" class="validate">
+                <label class="active" for="first_name2">Specific Interests</label>
+            </div>
+        </div> -->
+          
+        
+           <!-- <p class="range-field">
+                <input type="range" id="test5" min="0" max="30" />
+            </p>
+        -->
+        <div class="row">
+        <button class="btn waves-effect waves-light Next" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+            </button>
+        </div>
+          </div>
+        </div>
+      </div>
+      </form>
+     
+       
+        <!-- Section to render Sign-in error, if required -->
+        
+        
+        <!-- Page footer section  -->
+        <!--<footer class="page-footer sticky grey darken-2" id="footer">
+            <div class="footer-copyright">
+                <div class="container">
+                   <a class="white-text text-lighten-4 hide-on-small-only" target="_blank" 
+                       href="http://techshanty.com/">
+                       Designed By: HelpingO
+                    </a>
+                    <a class="white-text text-lighten-4 right indexFooterText" target="_blank" 
+                       href="http://helpingo.com/"> 
+                        ©2016 HelpingO LLC
+                    </a>
+                </div>
+            </div>
+        </footer>  -->    
+        <!-- external project dependencies/scripts here -->
+        <script src="scripts/lib/jquery.js"></script>
+        <script src="scripts/lib/jquery.card.js"></script>
+        <script src="scripts/lib/angular.min.js"></script>
+        <script src="scripts/lib/materialize.js"></script>
+        <!--<script src="scripts/lib/angular-the-linkedin.js"></script>
+        <script src="scripts/lib/angular-highlightjs.min.js"></script>
+        <script src="scripts/lib/angular-easyfb.min.js"></script>
+        <script src="scripts/lib/angular-ui-form-validation.js"></script>-->
+        <script src="scripts/lib/ui-bootstrap-tpls.min.js"></script>
 
-<!-- external project dependencies/scripts here -->
-<script src="scripts/lib/jquery.js"></script>
-<script src="scripts/lib/jquery.card.js"></script>
-<script src="scripts/lib/materialize.js"></script>
-<script src="scripts/lib/ui-bootstrap-tpls.min.js"></script>
 
-
-</body>
+    </body>
 </html>
