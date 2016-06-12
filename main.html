@@ -10,34 +10,48 @@
         <meta name="viewport" content="width=device-width">
 
 
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
         <!-- matrialize css -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
         <!-- custom styles/main.css -->
         <link rel="stylesheet" href="css/main.css">
-        
-        <!-- Materialise icon APIs -->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="css/animation.css" rel="stylesheet">
+        <link href="css/globeish.css" rel="stylesheet">
+        <link href="css/global.css" rel="stylesheet">        
     </head>
     
     <body>
-        <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation" style="background-color: #f8f8f8 !important; color: black !important;">
+        <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
         <div class="container topnav">
             <!-- Brand and toggle get grouped for better mobile display -->
-            
             <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">BeLingual</span>
+                    <span class="icon-menu"></span>
+                </button>
                 <img class="logo" src="images/logo.png">
-                <a class="navbar-brand topnav" style="color: black !important;" href="#">GLOBEISH</a>
+                <a class="navbar-brand topnav" href="#">BeLingual</a>
+
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#about"> <span class="icon-network"></span>  Inbox</a>
+                    </li>
+                   
+                </ul>
+            </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
         <h4 class="col s12">
-            Globeish
+            BeLingual
         </h4>
         <h5>
             Choose a Language That You are Interested in Learning!
@@ -94,6 +108,11 @@
 
         <!-- jQuery -->
         <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <script src="http://dev.globeish.co:35729/livereload.js?snipver=1"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
     </body>

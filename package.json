@@ -1,8 +1,8 @@
 {
-  "name": "Globeish",
+  "name": "BeLingual",
   "version": "0.0.1",
   "description": "Austere Environment for Students to Connect Internationally",
-  "author": "Globeish",
+  "author": "BeLingual",
   "devDependencies": {
     "gulp": ">=3.8.9",
     "gulp-concat": ">=2.3.4",
