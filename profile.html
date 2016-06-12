@@ -14,6 +14,9 @@
         <!-- Mobile Specific Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
         <!-- matrialize css -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -23,7 +26,7 @@
         <!-- Stylesheets -->
         <link href="css/animation.css" rel="stylesheet">
         <link href="css/globeish.css" rel="stylesheet">
-        <link href="css/global.css" rel="stylesheet">
+        <link href="css/global.css" rel="stylesheet"> 
 
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
@@ -38,86 +41,124 @@
         
         
         <!-- Navbar -->
-        <div class="navbar-fixed">
-            <nav class="row">
-                <div class="col s12">
-                    <div class="nav-wrapper">
-                        <a href="#!" class="brand-logo">BeLingual</a>
-                        <ul class="right hide-on-med-and-down">
-                            <li><a href="sass.html">Sass</a></li>
-                            <li><a href="badges.html">Components</a></li>
-                        </ul>
-                    </div>
+        <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+            <div class="container topnav">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">BeLingual</span>
+                        <span class="icon-menu"></span>
+                    </button>
+                    <img class="logo" src="images/logo.png">
+                    <a class="navbar-brand topnav" href="/">Be<span class="logo-dot icon-dot"></span>Lingual</a>
+
                 </div>
-            </nav>
-        </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="messages.html"> <span class="icon-network"></span>  Inbox</a>
+                        </li>
+                       
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
 
         
         <!-- Content -->
-        <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <div class="profile-div">
+                        <a class="profile-bg profile-block"></a>
 
-            <div class="profile-div">
-                <a class="profile-bg profile-block"></a>
+                        <div>
+                            <div class="profile-button">
+                                Badges Here!
+                            </div>
 
-                <div>
-                    <div class="profile-button">
-                        <!-- Twitter Button | you can get from: https://about.twitter.com/tr/resources/buttons#follow -->
-                        <a href="https://twitter.com/mertskaplan" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false" data-dnt="true">Follow @mertskaplan</a>
-                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-                        <!-- Twitter Button -->   
-                    </div>
+                            <a title="Ben Forrester" href="https://twitter.com/benforrester" class="profile-avatarLink">
+                                <img alt="Ben Forrester" src="images/ben.jpg" class="profile-avatarImg">
+                            </a>
 
-                    <a title="Mert Salih Kaplan" href="https://twitter.com/mertskaplan" class="profile-avatarLink">
-                        <img alt="Mert Salih Kaplan" src="https://pbs.twimg.com/profile_images/378800000352678934/34f9e192635975bf42e534434e2b6273_bigger.jpeg" class="profile-avatarImg">
-                    </a>
+                            <div class="profile-divUser">
+                                <div class="profile-divName">
+                                    <a href="https://twitter.com/benforrester">Ben Forrester</a>
+                                </div>
+                            </div>
 
-                    <div class="profile-divUser">
-                        <div class="profile-divName">
-                            <a href="https://twitter.com/mertskaplan">Mert S. Kaplan</a>
+                            <div class="profile-divStats">
+                                <ul class="profile-Arrange">
+                                    <li class="profile-ArrangeSizeFit">
+                                        <span class="profile-StatLabel profile-block">Passions</span>
+                                        <ul class="profile-StatValue">
+                                            <li>Tumbling / Trampoline</li>
+                                            <li>Hiking</li>
+                                            <li>School / Good grades</li>
+                                            <li>Piano</li>
+                                        </ul>
+                                    </li>
+                                    <li class="profile-ArrangeSizeFit">
+                                        <a href="#" title="">
+                                            <span class="profile-StatLabel profile-block">Following</span>
+                                            <span class="profile-StatValue">885</span>
+                                        </a>
+                                    </li>
+                                    <li class="profile-ArrangeSizeFit">
+                                        <a href="#" title="">
+                                            <span class="profile-StatLabel profile-block">Followers</span>
+                                            <span class="profile-StatValue">1.810</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                        <span>
-                            <a href="https://twitter.com/mertskaplan">@<span>mertskaplan</span></a>
-                        </span>
-                    </div>
-
-                    <div class="profile-divStats">
-                        <ul class="profile-Arrange">
-                            <li class="profile-ArrangeSizeFit">
-                                <a href="https://twitter.com/mertskaplan" title="9.840 Tweet">
-                                    <span class="profile-StatLabel profile-block">Tweets</span>
-                                    <span class="profile-StatValue">9.840</span>
-                                </a>
-                            </li>
-                            <li class="profile-ArrangeSizeFit">
-                                <a href="https://twitter.com/mertskaplan/following" title="885 Following">
-                                    <span class="profile-StatLabel profile-block">Following</span>
-                                    <span class="profile-StatValue">885</span>
-                                </a>
-                            </li>
-                            <li class="profile-ArrangeSizeFit">
-                                <a href="https://twitter.com/mertskaplan/followers" title="1.810 Followers">
-                                    <span class="profile-StatLabel profile-block">Followers</span>
-                                    <span class="profile-StatValue">1.810</span>
-                                </a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
-            
         </div>
         <!-- /Content -->
 
         
+
         <!-- Footer -->
-        <footer class="">
-            
-        </footer>       
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="list-inline">
+                            <li>
+                                <a href="/">Home</a>
+                            </li>
+                            <li class="footer-menu-divider">&sdot;</li>
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+                            <li class="footer-menu-divider">&sdot;</li>
+                            <li>
+                                <a href="#services">Services</a>
+                            </li>
+                            <li class="footer-menu-divider">&sdot;</li>
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                        <p class="copyright text-muted small">Copyright &copy; BeLingual 2016. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>  
         <!-- /Footer -->
 
         <!-- Javascript -->
             <!-- jQuery -->
-            <script src="js/jquery.js"></script>>
+            <script src="js/jquery.js"></script>
+
+            <!-- Bootstrap Core JavaScript -->
+            <script src="js/bootstrap.min.js"></script>
 
             <script src="http://dev.globeish.co:35729/livereload.js?snipver=1"></script>
 
